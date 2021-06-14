@@ -1,0 +1,356 @@
+
+body{
+    background-color: #FFFFFF;
+    max-width: 1600px;
+    font-family:Roboto;
+    text-decoration: none;
+    
+
+}
+ul{
+    list-style: none;
+}
+nav {
+    display:flex;
+    flex-wrap:wrap-reverse;
+    align-content:stretch;
+
+    }
+  
+.section-team-card-super p{ 
+    color: #757575;
+    font-size: 16px;
+    line-height:1.17 ;
+    font-weight: 400;
+    text-decoration: none;
+  letter-spacing: 3%;
+
+}
+
+ 
+
+.section-team-card-super{
+    background-color:#F5F4FA ;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    height: 648px; 
+    
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 94; 
+    margin-right:215 ;
+    margin-bottom: 94;
+    margin-left: 215 ;
+    align-content: center;
+    
+}
+
+    
+
+    .container-portfolio-two{
+        display: flex;
+        flex-direction:row-reverse;
+        height: 80px;
+        justify-content:flex-end;
+    }
+    
+    .page-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       background-color:#FFFFFF ;
+      }
+      .team-card-one{
+          color: #212121;
+          font-size: 16px;
+          line-height:1.17 ;
+          font-weight: 500;
+          text-decoration: none;
+        letter-spacing: 3%;}
+
+          .logo-header-two{
+            color: #212121 ;
+            font-size: 26px;
+            line-height:1.17 ;
+            font-weight: 700;
+            font-family:Raleway,sans-serif ;
+            text-decoration: none;
+        }
+      .logo-first{
+          color:#2196F3;
+          font-size: 26px;
+          line-height:1.17 ;
+          font-weight: 700;
+          font-family:Raleway,sans-serif ;
+          text-decoration: none; }
+      
+          .logo-header{
+        color:#FFFFFF ;
+        font-size: 26px;
+        line-height:1.17 ;
+        font-weight: 700;
+        font-family:Raleway,sans-serif ;
+        text-decoration: none;
+}
+
+    .team-card-two:hover{
+        color:dodgerblue;
+        
+    }
+    .team-card-two:focus{
+        color:dodgerblue;
+        
+    }
+    .logo-header-two:hover{
+        color:dodgerblue;
+        
+    }
+    .logo-header-two:focus{
+        color:dodgerblue;}
+        
+        .e-mail:hover{
+            color:dodgerblue;
+            
+        }
+        .e-mail:focus{
+            color:dodgerblue;}
+            
+           
+
+            
+    
+    
+    
+   
+    .non-stop{
+        display: flex;
+        height: 80px;
+        flex-direction: row;
+        flex-wrap:nowrap;
+        align-items: flex-start;
+        justify-content: space-around;
+        }
+       
+      
+
+        
+                .e-mail{
+                    color:#757575;
+                    font-size: 14px;
+                    line-height:1.17 ;
+                    font-weight: 500;
+                    text-decoration: none;
+                   }
+                   .maximum-size {
+                    color: rgb(255,255,255,0.6);
+                    font-size: 14px;
+                    line-height:1.71 ;
+                    font-weight: 400;
+                    text-decoration: none;
+                    letter-spacing: 3%;
+                    
+                   }
+  
+
+
+
+
+.street-one
+{ color:#FFFFFF;
+    font-size: 14px;
+    line-height:1.17 ;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 3%;
+}
+
+
+
+.team-card-two {
+    color: #212121;
+    font-size: 14px;
+    line-height:1.17 ;
+    font-weight: 500;
+    letter-spacing: 2%;
+    text-decoration: none;}
+    .logo-first-two{
+        color:#2196F3;
+        font-size: 26px;
+        line-height:1.17 ;
+        font-weight: 700;
+        font-family:Raleway,serif ;
+        text-decoration: none;}
+        footer{
+            background-color: #2F303A;
+        }
+        button{
+            
+            background-color:#2196f3;
+            color: #FFFFFF;
+            font-size: 16px;
+    line-height:1.87 ;
+    font-weight: 700;
+    letter-spacing: 6%;
+    height: 50px;
+width: 200px;
+left: 700px;
+top: 430px;
+border-radius: 4px;
+margin-top: 350px;
+margin-right: 700px;
+margin-bottom: 1869px;
+margin-left: 700px;
+    
+    
+    }
+    
+
+    .twenty-two-section{
+       color: #FFFFFF;
+        margin-bottom: 94px;
+padding-top:  94px;
+padding-right:  215px;
+ padding-bottom: 94px;
+ padding-left: 215px;
+ height: 600px;
+ font-size: 44px;
+          line-height:1.17 ;
+          font-weight: 900;
+          font-family: Roboto,sans-serif;
+          text-decoration: none; 
+          letter-spacing: 6%;
+          background-color:#2F303A;
+          ;
+
+
+    }
+   
+        
+    
+    
+    
+    .section-team-twenty-one{
+
+        
+        padding-top: 94px;
+  
+    padding-top:  186px;
+   padding-right: 215px;
+   padding-bottom:  94px;
+   padding-left:  215px;
+   
+       
+    }
+
+
+
+
+
+
+.section-attention-first{
+    margin: 94px,215px,94px,215px;
+}
+
+
+
+.contacts-two{
+    margin: top 111px; ;
+    margin: right 1154px; ;
+    margin: bottom 60px; ;
+    margin: left 215px; ;
+}
+
+.container-normal{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+
+
+}
+ul .item{
+    color: #212121;
+    font-size: 14px;
+          line-height:1.17 ;
+          font-weight: 500;
+          font-family: Roboto,sans-serif;
+          text-decoration: none; 
+          letter-spacing: 2%;
+}
+li .team-card-one{
+    color: #212121;
+    font-size: 14px;
+          line-height:1.17 ;
+          font-weight: 700;
+          font-family: Roboto,sans-serif;
+          text-decoration: none; 
+          letter-spacing: 3%;
+          
+         
+}
+
+.item p{
+    color: #757575;
+    font-size: 14px;
+          line-height:1.71 ;
+          font-weight: 400;
+          font-family: Roboto,sans-serif;
+          text-decoration: none; 
+          letter-spacing: 3%;
+}
+li{
+    list-style: none;
+}
+.section-our-com {
+    color: #212121;
+    font-size: 36px;
+          line-height:1.17 ;
+          font-weight: 700;
+          font-family: Roboto,sans-serif;
+          text-decoration: none; 
+          letter-spacing: 3%;
+
+}
+
+.button-two{
+    color: #212121;
+    font-size: 16px;
+          line-height:1.62 ;
+          font-weight: 500;
+          font-family: Roboto,sans-serif;
+          text-decoration: none; 
+          letter-spacing: 3%;
+          background-color:#F5F4FA;
+
+          ;
+}
+
+ul .time-class{
+    color: #212121;
+    font-size: 18px;
+          line-height:2.0;
+          font-weight: 700;
+          font-family: Roboto,sans-serif;
+          text-decoration: none; 
+          letter-spacing: 6%;
+          text-decoration: none;
+          }
+.web-site{
+    color: #757575;
+    font-size: 16px;
+          line-height:1.87;
+          font-weight: 400;
+          font-family: Roboto,sans-serif;
+          text-decoration: none; 
+          letter-spacing: 3%;
+        text-decoration: none;
+
+}
+
+
+
+
+
+        
