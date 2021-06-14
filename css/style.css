@@ -34,14 +34,15 @@ nav {
     display: flex;
     flex-wrap:wrap;
     flex-direction: row;
-    height: 648px; 
-    
+    width: 1600px;
+   
+    margin-top :186px; ;
+    margin-left:215px ;
+    margin-right: 215px;
+    margin-bottom:94px ;
     justify-content: space-around;
     align-items: flex-start;
-    margin-top: 94; 
-    margin-right:215 ;
-    margin-bottom: 94;
-    margin-left: 215 ;
+   
     align-content: center;
     
 }
@@ -208,8 +209,8 @@ margin-left: 700px;
 
     .twenty-two-section{
        color: #FFFFFF;
-        margin-bottom: 94px;
-padding-top:  94px;
+       
+margin-top:  80px;
 padding-right:  215px;
  padding-bottom: 94px;
  padding-left: 215px;
@@ -348,6 +349,24 @@ ul .time-class{
         text-decoration: none;
 
 }
+.team-card-one-section{
+    margin-top: 94px;
+}
+.our-work{
+    margin-top: 94px;
+}
+.woman-and-man{
+    margin-top: 94px;
+    margin-bottom: 0px;
+    
+    
+}
+.container-footer{
+    margin-top: 0px;
+}
+
+
+
 
 
 
