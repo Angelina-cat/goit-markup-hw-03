@@ -1,10 +1,12 @@
 
 body{
     background-color: #FFFFFF;
-    max-width: 1600px;
+    max-width: 1230px;
     font-family:Roboto;
     text-decoration: none;
-    
+    margin: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 ul{
@@ -77,6 +79,14 @@ nav {
             font-weight: 700;
             font-family:Raleway,sans-serif ;
             text-decoration: none;
+        }
+        
+
+        nav 
+        {display: inline-block;
+   
+        vertical-align: bottom;
+
         }
       .logo-first{
           color:#2196F3;
@@ -166,15 +176,21 @@ nav {
     letter-spacing: 3%;
 }
 
+.item
+{display: inline-block;
+    vertical-align: bottom;
 
+}
 
 .team-card-two {
+    
     color: #212121;
     font-size: 14px;
     line-height:1.17 ;
     font-weight: 500;
     letter-spacing: 2%;
-    text-decoration: none;}
+    text-decoration: none;
+}
     .logo-first-two{
         color:#2196F3;
         font-size: 26px;
@@ -186,6 +202,7 @@ nav {
             background-color: #2F303A;
         }
         button{
+            display: inline-block;
             
             background-color:#2196f3;
             color: #FFFFFF;
@@ -194,14 +211,15 @@ nav {
     font-weight: 700;
     letter-spacing: 6%;
     height: 50px;
-width: 200px;
-left: 700px;
+
 top: 430px;
 border-radius: 4px;
-margin-top: 350px;
-margin-right: 700px;
-margin-bottom: 1869px;
-margin-left: 700px;
+border: transparent;
+
+
+padding:10px 32px ;
+text-decoration:none;
+text-align: center;
     
     
     }
