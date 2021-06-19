@@ -1,4 +1,11 @@
 
+*, ::after,::before{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
 body{
     background-color: #FFFFFF;
     max-width: 1230px;
@@ -20,7 +27,7 @@ nav {
     }
   
 .section-team-card-super p{ 
-    color: #757575;
+   
     font-size: 16px;
     line-height:1.17 ;
     font-weight: 400;
@@ -31,39 +38,39 @@ nav {
 
  
 
-.section-team-card-super{
+.team-card{
     background-color:#F5F4FA ;
     display: flex;
-    flex-wrap:wrap;
-    flex-direction: row;
-    width: 1600px;
-   
-    margin-top :186px; ;
-    margin-left:215px ;
-    margin-right: 215px;
-    margin-bottom:94px ;
-    justify-content: space-around;
-    align-items: flex-start;
-   
-    align-content: center;
+    align-items: stretch;
+    }
+    .what-we-are-doing{
+        display: flex;
+    align-items: stretch;
+    
+    }
+.section-team-card-super li:not(:last-child){
+    padding-right: 30px;
     
 }
 
-    
+.what-we-are-doing li:not(:last-child){
+padding-right: 30px;
+}
 
     .container-portfolio-two{
         display: flex;
         flex-direction:row-reverse;
-        height: 80px;
+        
         justify-content:flex-end;
+        margin-top: 32px;
+        margin-bottom: 32px;
     }
     
-    .page-header {
-        display: flex;
+    .page-header{display: flex;
         align-items: center;
         justify-content: space-between;
-       background-color:#FFFFFF ;
-      }
+
+    }
       .team-card-one{
           color: #212121;
           font-size: 16px;
@@ -79,22 +86,26 @@ nav {
             font-weight: 700;
             font-family:Raleway,sans-serif ;
             text-decoration: none;
+            padding: 24px 93px 23px;
         }
+       
         
+.page-header{
+    border-bottom: 1px solid #ECECEC ;
+            padding-top: 32px;
+}
+       
 
-        nav 
-        {display: inline-block;
-   
-        vertical-align: bottom;
-
-        }
+        
       .logo-first{
           color:#2196F3;
           font-size: 26px;
           line-height:1.17 ;
           font-weight: 700;
           font-family:Raleway,sans-serif ;
-          text-decoration: none; }
+          text-decoration: none; 
+          
+        }
       
           .logo-header{
         color:#FFFFFF ;
@@ -176,11 +187,20 @@ nav {
     letter-spacing: 3%;
 }
 
-.item
-{display: inline-block;
-    vertical-align: bottom;
-
+.item-one
+{display: flex;
+flex-direction: row;
+margin-top:32px ;
+margin-right: 50px;  
+margin-bottom: 32px;
 }
+.container{
+    display: flex;
+flex-direction: row;
+ 
+align-content: center;
+
+} 
 
 
 
@@ -232,9 +252,8 @@ border-radius: 4px;
     .twenty-two-section{
         box-sizing: border-box;
        
-        margin-left: 15px;
-        margin-right: 15px;
-        margin-top: 0px;
+       
+        
         margin-bottom: 94px;
        color: #FFFFFF;
        background-color:#3a3a3d;
@@ -342,7 +361,7 @@ li .team-card-one{
 li{
     list-style: none;
 }
-.section-our-com {
+.word-our-com {
     color: #212121;
     font-size: 36px;
           line-height:1.17 ;
@@ -350,7 +369,9 @@ li{
           font-family: Roboto,sans-serif;
           text-decoration: none; 
           letter-spacing: 3%;
-          padding: 0px 612px 50px 612px;
+          padding-top: 94px ; 
+          padding-bottom: 50px ;
+          text-align: center;
 
 }
 
@@ -394,14 +415,23 @@ ul .time-class{
 }
 .our-work{
     margin-top: 94px;
+    margin-bottom: 94px;
 }
 .woman-and-man{
+   
+    background-color: #F5F4FA;
+    height: 648px;
+    width: 1230px;
     margin-top: 94px;
     margin-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
     
     
 }
 .container-footer{
+    box-sizing: border-box;
     margin-top: 0px;
 }
 .decid-my-win{
@@ -412,8 +442,7 @@ ul .time-class{
 .container{
     margin-top:0px ;
     margin-bottom:0px ;
-    padding-top:24p ;
-    padding-bottom:25px;
+    
     height: 80px;
 }
 .box-one{
@@ -427,10 +456,64 @@ ul .time-class{
 .twenty-two-section{
     margin: 94px 215px 94px 215px;
 }
+.section-our-com{
+    padding-bottom: 50px;
+    text-align: center;
+    margin-top: 94px;
+}
+.container-portfolio-two .item + .item
+{
+    margin-right: 50px;
+}
+.container-nav{
+    display: flex;
+    align-items: center;
+}
+.plan-b {
+    display: flex;
+}
+.plan-b li:not(:last-child){
+    margin-right: 30px;}
+    
+    
+    .portfolio-work{
+        display: flex;
+        flex-wrap: wrap;
+
+        padding-right: -30px;
+        
+    }
+.container-footer-two{
+    display: flex;
+    flex-direction: column;
+    padding-left:15px;
+}
+footer .logo-header{
+    display:inline-block;
+    padding-top:60px ;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+.contacts-two {
+    padding-bottom: 9px;
+    padding-left: 15px;
 
 
 
+}
+.button-marketing {
+    display: flex;
+    }
+    .button-marketing li{
+        display:inline-block;
+        border-radius:4px ;
+        margin-right: 8px;
 
+    }
+   
+.cinderella-one{
+    padding-right: 30px;
+}
 
 
 
