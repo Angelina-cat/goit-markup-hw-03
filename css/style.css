@@ -55,9 +55,14 @@ ul{
 .what-we-are-doing li:not(:last-child){
 padding-right: 30px;
 }
-
+.plan-b li{
+    margin-right: 30px;
+    margin-bottom: 94px;
+}
     
-    
+    .plan-b li :not(:last-child){
+        padding-right: 30px;
+        }
    
       .team-card-one{
           color: #212121;
@@ -65,7 +70,11 @@ padding-right: 30px;
           line-height:1.17 ;
           font-weight: 500;
           text-decoration: none;
-        letter-spacing: 3%;}
+        letter-spacing: 3%;
+    padding-bottom: 10px;
+    margin-top: 94px;
+    
+    }
         .team-card-one-igor{
             color: #212121;
             font-size: 16px;
@@ -233,12 +242,14 @@ padding-right: 30px;
             color:dodgerblue;
             
         }
-        .e-mail:focus{
-            color:dodgerblue;}
+       
             
-           
             
-   
+            
+   .mail-one{
+       padding-top: 9px;
+       padding-bottom: 9px;
+   }
    .e-mail{
     color: #757575;
     font-size: 14px;
@@ -259,7 +270,7 @@ padding-right: 30px;
                     font-size: 14px;
                     line-height:1.71 ;
                     font-weight: 400;
-                    text-decoration: none;
+                    
                     letter-spacing: 3%;
                     
                    }
@@ -503,8 +514,8 @@ ul .time-class{
           
           letter-spacing: 6%;
           padding-left: 24px;
-          margin-bottom: 4px;
-          margin-top: 20px;
+          padding-right: 24px;
+          padding-top: 20px;
           }
 .web-site{
     color: #757575;
@@ -516,12 +527,17 @@ ul .time-class{
           letter-spacing: 3%;
         text-decoration: none;
         padding-left:24px ;
+        padding-right: 24px;
+        padding-top: 4px;
+        padding-bottom: 20px;
         
 
 }
 .team-card-one-section{
     box-sizing: border-box;
     margin-top: 94px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 .our-work{
     margin-top: 94px;
@@ -544,6 +560,7 @@ ul .time-class{
     box-sizing: border-box;
 
     margin-top: 0px;
+    
 }
 .decid-my-win{
     padding-top: 200px;
@@ -589,8 +606,9 @@ footer .logo-header{
     padding-left: 15px;
 }
 .contacts-two {
-    padding-bottom: 9px;
+    padding-bottom: 60px;
     padding-left: 15px;
+    padding-top: 20px;
 
 
 
@@ -640,4 +658,19 @@ footer .logo-header{
     width: 270px;
     margin-top: 0px;
     
+}
+.woman-and-man .color-life{
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+    
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    
+}
+footer a:hover{
+    color:dodgerblue;
+
+}
+footer a:focus{
+    color:dodgerblue;
 }
