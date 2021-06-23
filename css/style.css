@@ -15,12 +15,24 @@ body{
     font-family:Roboto,sans-serif;
     
     margin: 0 auto;
+
    
 
 
 }
+.container-one{
+    width: 1200px;
+    margin:0 auto;
+    padding: 0 15 0 15px;
+}
+.container-one{
+    display: flex;
+
+}
 ul{
     list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 
     
@@ -198,6 +210,7 @@ padding-right: 30px;
         
 .page-header{
     border-bottom: 1px solid #ECECEC ;
+    height: 80px;
             
             
 }
@@ -374,15 +387,14 @@ border-radius: 4px;
        
        
         
-        margin-bottom: 94px;
+        
        color: #FFFFFF;
        background-color:#3a3a3d;
        text-align: center;
        padding-top:200px ;
        padding-bottom:200px;
 
- margin-right: 15px;
- margin-left: 15px;
+
 }
       
        .decid-my-win{
@@ -428,7 +440,9 @@ border-radius: 4px;
 
 
 .section-attention-first{
-    margin: 94px,215px,94px,215px;
+    width: 1200px;
+    margin: 0px auto ;
+    padding: 0px 15px 0px 15px ;
 }
 
 
@@ -486,8 +500,7 @@ li{
           font-family: Roboto,sans-serif;
           text-decoration: none; 
           letter-spacing: 3%;
-          padding-top: 94px ; 
-          padding-bottom: 50px ;
+          margin: 0px;
           text-align: center;
 
 }
@@ -533,7 +546,7 @@ ul .time-class{
         
 
 }
-.team-card-one-section{
+.section-team-card-one{
     box-sizing: border-box;
     margin-top: 94px;
     margin-right: 15px;
@@ -673,4 +686,7 @@ footer a:hover{
 }
 footer a:focus{
     color:dodgerblue;
+}
+.container-portfolio-two{
+    display: flex;
 }
