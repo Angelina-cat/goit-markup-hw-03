@@ -11,12 +11,12 @@ img{
 }
 body{
     background-color: #FFFFFF;
-    max-width: 1230px;
+    max-width: 1600px;
     font-family:Roboto,sans-serif;
-    text-decoration: none;
-    margin: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
+    
+    margin: 0 auto;
+   
+
 
 }
 ul{
