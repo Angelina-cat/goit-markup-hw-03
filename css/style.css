@@ -20,6 +20,10 @@ body{
 
 
 }
+.section-our-com{
+    margin-top: 50px;
+    margin-bottom: 94px;
+}
 .container-one{
     width: 1200px;
     margin:0 auto;
@@ -44,11 +48,15 @@ ul{
     font-weight: 400;
     text-decoration: none;
   letter-spacing: 3%;
+  width: 1230px;
 
 }
 
  
-
+.section-number{
+    width: 1230px;
+    
+}
 .team-card{
     background-color:#F5F4FA ;
     display: flex;
@@ -578,6 +586,7 @@ ul .time-class{
 .decid-my-win{
     padding-top: 200px;
     padding-bottom: 280px;
+
     
 }
 
@@ -588,7 +597,8 @@ ul .time-class{
 .section-our-com{
     padding-bottom: 50px;
     text-align: center;
-    margin-top: 94px;
+    padding-top: 94px;
+
 }
 
 
