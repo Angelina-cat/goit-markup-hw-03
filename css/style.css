@@ -47,14 +47,14 @@ ul{
     line-height:1.17 ;
     font-weight: 400;
     text-decoration: none;
-  letter-spacing: 3%;
-  width: 1230px;
+  letter-spacing: 0.03em;
+  width: 1200px;
 
 }
 
  
 .section-number{
-    width: 1230px;
+    width: 1200px;
     
 }
 .team-card{
@@ -90,7 +90,7 @@ padding-right: 30px;
           line-height:1.17 ;
           font-weight: 500;
           text-decoration: none;
-        letter-spacing: 3%;
+        letter-spacing: 0.03em;
     padding-bottom: 10px;
     margin-top: 94px;
     
@@ -101,7 +101,7 @@ padding-right: 30px;
             line-height:1.17 ;
             font-weight: 500;
             text-decoration: none;
-          letter-spacing: 3%; 
+          letter-spacing: 0.03em; 
           margin-right:59px ;
           margin-top:30px ;
           margin-bottom:10px ;
@@ -114,7 +114,7 @@ padding-right: 30px;
             line-height:1.17 ;
             font-weight: 500;
             text-decoration: none;
-          letter-spacing: 3%; 
+          letter-spacing: 0.03em; 
           margin-right:81px ;
           margin-top:30px ;
           margin-bottom:10px ;
@@ -128,7 +128,7 @@ padding-right: 30px;
             line-height:1.17 ;
             font-weight: 500;
             text-decoration: none;
-          letter-spacing: 3%; 
+          letter-spacing:0.03em; 
           margin-right:66px ;
           margin-top:30px ;
           margin-bottom:10px ;
@@ -141,7 +141,7 @@ padding-right: 30px;
             line-height:1.17 ;
             font-weight: 500;
             text-decoration: none;
-          letter-spacing: 3%; 
+          letter-spacing:0.03em; 
           margin-right:68px ;
           margin-top:30px ;
           margin-bottom:10px ;
@@ -155,7 +155,7 @@ padding-right: 30px;
             line-height:1.17 ;
             font-weight: 400;
             text-decoration: none;
-          letter-spacing: 3%; 
+          letter-spacing: 0.03em; 
           margin-right:70px ;
           
           margin-bottom:30px ;
@@ -169,7 +169,7 @@ padding-right: 30px;
             line-height:1.17 ;
             font-weight: 400;
             text-decoration: none;
-          letter-spacing: 3%; 
+          letter-spacing: 0.03em; 
           margin-right:61px ;
           
           margin-bottom:30px ;
@@ -183,7 +183,7 @@ padding-right: 30px;
             line-height:1.17 ;
             font-weight: 400;
             text-decoration: none;
-          letter-spacing: 3%; 
+          letter-spacing: 0.03em; 
           margin-right:97px ;
           
           margin-bottom:30px ;
@@ -197,7 +197,7 @@ padding-right: 30px;
             line-height:1.17 ;
             font-weight: 400;
             text-decoration: none;
-          letter-spacing: 3%; 
+          letter-spacing: 0.03em; 
           margin-right:91px ;
           
           margin-bottom:30px ;
@@ -213,6 +213,7 @@ padding-right: 30px;
             font-family:Raleway,sans-serif ;
             text-decoration: none;
            padding-left: 15px;
+           letter-spacing: 0.03em;
         }
        
         
@@ -232,6 +233,7 @@ padding-right: 30px;
           font-weight: 700;
           font-family:Raleway,sans-serif ;
           text-decoration: none; 
+          letter-spacing: 0.03em;
           
         }
       
@@ -242,6 +244,7 @@ padding-right: 30px;
         font-weight: 700;
         font-family:Raleway,sans-serif ;
         text-decoration: none;
+        letter-spacing: 0.03em;
 }
 
     .team-card-two:hover{
@@ -277,8 +280,9 @@ padding-right: 30px;
     line-height:1.17 ;
     font-weight: 500;
     text-decoration: none;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     font-family:Roboto,sans-serif ;
+    margin-left: 50px;
    }
             
        
@@ -292,7 +296,7 @@ padding-right: 30px;
                     line-height:1.71 ;
                     font-weight: 400;
                     
-                    letter-spacing: 3%;
+                    letter-spacing: 0.03em;
                     
                    }
   
@@ -306,7 +310,7 @@ padding-right: 30px;
     line-height:1.17 ;
     font-weight: 400;
     text-decoration: none;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
 
 .item-one 
@@ -326,11 +330,13 @@ margin-right: 50px;
  }
  .container-portfolio-two li{
      display: flex;
-     justify-content: flex-end;
+     margin-left: auto;
+     
     
  }
  .container-portfolio-two .item + .item{
-     margin-right: 50px;
+     
+     margin-right: auto;
  }
 nav{
     display: flex;
@@ -349,7 +355,7 @@ nav{
     font-size: 14px;
     line-height:1.17 ;
     font-weight: 500;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
     .logo-first-two{
@@ -358,10 +364,12 @@ nav{
         line-height:1.17 ;
         font-weight: 700;
         font-family:Raleway,serif ;
+        letter-spacing: 0.03em;
         text-decoration: none;}
         footer{margin-top: 94px;
             background-color: #2F303A;
-            width: 1230px;
+            width: 1200px;
+            
         }
      
         button{
@@ -372,7 +380,7 @@ nav{
             font-size: 16px;
     line-height:1.87 ;
     font-weight: 700;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
     height: 50px;
     border: transparent;
     padding:10px 32px ;
@@ -393,9 +401,10 @@ border-radius: 4px;
     .twenty-two-section{
         box-sizing: border-box;
        
-       
+       width: 1200px;
         
-        
+        padding-left: 15px;
+        padding-right:15px ;
        color: #FFFFFF;
        background-color:#3a3a3d;
        text-align: center;
@@ -413,10 +422,11 @@ border-radius: 4px;
           font-weight: 900;
           font-family: Roboto,sans-serif;
           text-decoration: none; 
-          letter-spacing: 6%;
+          letter-spacing: 0.06em;
          margin-top: 200px ;
          margin-bottom: 30px;
-          
+         padding-top: 200px;
+         padding-bottom: 280px;
           
 
 
@@ -463,6 +473,8 @@ border-radius: 4px;
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
+    padding-top: 94px;
+    padding-bottom: 50px;
 
 
 }
@@ -473,7 +485,7 @@ ul .item{
           font-weight: 500;
           font-family: Roboto,sans-serif;
           text-decoration: none; 
-          letter-spacing: 2%;
+          letter-spacing: 0.02em;
          
 }
 li .team-card-one{
@@ -483,7 +495,7 @@ li .team-card-one{
           font-weight: 700;
           font-family: Roboto,sans-serif;
           text-decoration: none; 
-          letter-spacing: 3%;
+          letter-spacing: 0.03em;
           
          
 }
@@ -495,7 +507,7 @@ li .team-card-one{
           font-weight: 400;
           font-family: Roboto,sans-serif;
           text-decoration: none; 
-          letter-spacing: 3%;
+          letter-spacing: 0.03em;
 }
 li{
     list-style: none;
@@ -507,9 +519,11 @@ li{
           font-weight: 700;
           font-family: Roboto,sans-serif;
           text-decoration: none; 
-          letter-spacing: 3%;
+          letter-spacing: 0.03em;
           margin: 0px;
           text-align: center;
+          padding-top: 94px;
+          padding-bottom: 50px;
 
 }
 
@@ -520,7 +534,7 @@ li{
           font-weight: 500;
           font-family: Roboto,sans-serif;
           text-decoration: none; 
-          letter-spacing: 3%;
+          letter-spacing: 0.03em;
           background-color:#F5F4FA;
 
           
@@ -533,7 +547,7 @@ ul .time-class{
           font-weight: 700;
           font-family: Roboto,sans-serif;
           
-          letter-spacing: 6%;
+          letter-spacing: 0.06em;
           padding-left: 24px;
           padding-right: 24px;
           padding-top: 20px;
@@ -545,7 +559,7 @@ ul .time-class{
           font-weight: 400;
           font-family: Roboto,sans-serif;
           text-decoration: none; 
-          letter-spacing: 3%;
+          letter-spacing: 0.03em;
         text-decoration: none;
         padding-left:24px ;
         padding-right: 24px;
@@ -568,7 +582,7 @@ ul .time-class{
    
     background-color: #F5F4FA;
     height: 648px;
-    width: 1230px;
+    width: 1200px;
     margin-top: 94px;
     margin-bottom: 0px;
     padding-left: 15px;
@@ -581,12 +595,6 @@ ul .time-class{
     box-sizing: border-box;
 
     margin-top: 0px;
-    
-}
-.decid-my-win{
-    padding-top: 200px;
-    padding-bottom: 280px;
-
     
 }
 
@@ -621,6 +629,7 @@ ul .time-class{
     display: flex;
     flex-direction: column;
     padding-left:15px;
+    
 }
 footer .logo-header{
     display:inline-block;
@@ -656,7 +665,7 @@ footer .logo-header{
 
 
 .container-portfolio{
-    width: 1230px;
+    width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -699,4 +708,12 @@ footer a:focus{
 }
 .container-portfolio-two{
     display: flex;
+    margin-left: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.main-content{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
