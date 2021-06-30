@@ -21,15 +21,16 @@ body{
 
 }
 .section-our-com{
-    margin-top: 50px;
-    margin-bottom: 94px;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
-.container-one{
+.container{
     width: 1200px;
     margin:0 auto;
-    padding: 0 15 0 15px;
+    padding: 0 15px 0 15px;
 }
 .container-one{
+    align-items: center;
     display: flex;
 
 }
@@ -51,7 +52,11 @@ ul{
   width: 1200px;
 
 }
-
+.section-team-card-super{
+    padding-left: 15px;
+height: 648px;
+width: 1200px;
+}
  
 .section-number{
     width: 1200px;
@@ -60,11 +65,11 @@ ul{
 .team-card{
     background-color:#F5F4FA ;
     display: flex;
-    align-items: stretch;
+   
     }
     .what-we-are-doing{
         display: flex;
-    align-items: stretch;
+  
     
     }
 .team-card :not(:last-child){
@@ -91,8 +96,7 @@ padding-right: 30px;
           font-weight: 500;
           text-decoration: none;
         letter-spacing: 0.03em;
-    padding-bottom: 10px;
-    margin-top: 94px;
+    margin-top: 0px;
     
     }
         .team-card-one-igor{
@@ -211,13 +215,14 @@ padding-right: 30px;
             line-height:1.17 ;
             font-weight: 700;
             font-family:Raleway,sans-serif ;
-            text-decoration: none;
+           
            padding-left: 15px;
            letter-spacing: 0.03em;
         }
        
         
 .page-header{
+    display: flex;
     border-bottom: 1px solid #ECECEC ;
     height: 80px;
             
@@ -243,7 +248,7 @@ padding-right: 30px;
         line-height:1.17 ;
         font-weight: 700;
         font-family:Raleway,sans-serif ;
-        text-decoration: none;
+        
         letter-spacing: 0.03em;
 }
 
@@ -282,7 +287,7 @@ padding-right: 30px;
     text-decoration: none;
     letter-spacing: 0.02em;
     font-family:Roboto,sans-serif ;
-    margin-left: 50px;
+    
    }
             
        
@@ -396,15 +401,16 @@ border-radius: 4px;
 
 
  
-    
+    .container-hero{
+        width: 1200px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
 
     .twenty-two-section{
         box-sizing: border-box;
        
-       width: 1200px;
-        
-        padding-left: 15px;
-        padding-right:15px ;
+      
        color: #FFFFFF;
        background-color:#3a3a3d;
        text-align: center;
@@ -423,10 +429,7 @@ border-radius: 4px;
           font-family: Roboto,sans-serif;
           text-decoration: none; 
           letter-spacing: 0.06em;
-         margin-top: 200px ;
-         margin-bottom: 30px;
-         padding-top: 200px;
-         padding-bottom: 280px;
+       margin-top: 0px;
           
 
 
@@ -457,7 +460,7 @@ border-radius: 4px;
 
 
 
-.section-attention-first{
+.container-attention-first{
     width: 1200px;
     margin: 0px auto ;
     padding: 0px 15px 0px 15px ;
@@ -569,14 +572,12 @@ ul .time-class{
 
 }
 .section-team-card-one{
-    box-sizing: border-box;
-    margin-top: 94px;
-    margin-right: 15px;
-    margin-left: 15px;
+    padding: 94px 0;
+    
 }
-.our-work{
-    margin-top: 94px;
-    margin-bottom: 94px;
+.section-our-work{
+   margin-top: 0px;
+   padding-bottom: 94px;
 }
 .woman-and-man{
    
@@ -584,13 +585,12 @@ ul .time-class{
     height: 648px;
     width: 1200px;
     margin-top: 94px;
-    margin-bottom: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
+   
     
     
     
 }
+
 .container-footer{
     box-sizing: border-box;
 
@@ -603,9 +603,9 @@ ul .time-class{
 
 
 .section-our-com{
-    padding-bottom: 50px;
+    margin-top: 0px;
     text-align: center;
-    padding-top: 94px;
+   
 
 }
 
@@ -709,15 +709,14 @@ footer a:focus{
 .container-portfolio-two{
     display: flex;
     margin-left: auto;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
 }
 .main-content{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
 }
-.footer-section{
+.container-footer{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px; 
@@ -729,3 +728,12 @@ footer a:focus{
     padding-right: 15px;
     
 }
+.container-portfolio-two li{
+margin-right: 50px;
+}
+.button-marketing li :hover{
+    color:dodgerblue;
+    
+}
+.button-marketing li :focus{
+    color:dodgerblue;}
