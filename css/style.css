@@ -42,7 +42,7 @@ ul{
 
     
   
-.section-team-card-super p{ 
+.container-team-card-super p{ 
    
     font-size: 16px;
     line-height:1.17 ;
@@ -52,7 +52,7 @@ ul{
   width: 1200px;
 
 }
-.section-team-card-super{
+.container-team-card-super{
     padding-left: 15px;
 height: 648px;
 
@@ -60,8 +60,10 @@ height: 648px;
  
 
 .team-card{
-    background-color:#F5F4FA ;
+    
     display: flex;
+    margin-right: 15px;
+    margin-left: 15px;
    
     }
     .what-we-are-doing{
@@ -69,10 +71,7 @@ height: 648px;
   
     
     }
-.team-card :not(:last-child){
-    margin-right: 30px;
-    
-}
+
 
 .what-we-are-doing li:not(:last-child){
 margin-right: 30px;
@@ -91,7 +90,7 @@ margin-right: 30px;
           font-size: 16px;
           line-height:1.17 ;
           font-weight: 500;
-          text-decoration: none;
+       
         letter-spacing: 0.03em;
     margin-top: 0px;
     
@@ -101,12 +100,11 @@ margin-right: 30px;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 500;
-            text-decoration: none;
+           text-align: center;
           letter-spacing: 0.03em; 
           margin-right:59px ;
           margin-top:30px ;
-          margin-bottom:10px ;
-          margin-left:60px ;
+          
           font-family:Roboto,sans-serif
         }
         .team-card-olga{
@@ -114,12 +112,11 @@ margin-right: 30px;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 500;
-            text-decoration: none;
+           
           letter-spacing: 0.03em; 
-          margin-right:81px ;
-          margin-top:30px ;
+          text-align: center;
           margin-bottom:10px ;
-          margin-left:80px ;
+          margin-top: 30px;
           font-family:Roboto,sans-serif
 
         }
@@ -128,12 +125,12 @@ margin-right: 30px;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 500;
-            text-decoration: none;
+           
           letter-spacing:0.03em; 
-          margin-right:66px ;
+          text-align: center;
           margin-top:30px ;
           margin-bottom:10px ;
-          margin-left:67px ;
+         
           font-family:Roboto,sans-serif
         }
         .team-card-ermakov{
@@ -141,26 +138,26 @@ margin-right: 30px;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 500;
-            text-decoration: none;
+            
           letter-spacing:0.03em; 
-          margin-right:68px ;
+          text-align: center;
           margin-top:30px ;
           margin-bottom:10px ;
-          margin-left:68px ;
+         
           font-family:Roboto,sans-serif  
         }
-        
+       
+      
         .designer-cool{
             color: #757575;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 400;
-            text-decoration: none;
+            
           letter-spacing: 0.03em; 
-          margin-right:70px ;
-          
-          margin-bottom:30px ;
-          margin-left:70px ;
+          padding:0 70px 30px 70px  ;
+         
+         
           font-family:Roboto,sans-serif 
 
         }
@@ -169,12 +166,12 @@ margin-right: 30px;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 400;
-            text-decoration: none;
+           
           letter-spacing: 0.03em; 
-          margin-right:61px ;
+         
           
-          margin-bottom:30px ;
-          margin-left:62px ;
+          padding-bottom:30px ;
+         
           font-family:Roboto,sans-serif 
 
         }
@@ -183,26 +180,27 @@ margin-right: 30px;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 400;
-            text-decoration: none;
+            
           letter-spacing: 0.03em; 
-          margin-right:97px ;
           
-          margin-bottom:30px ;
-          margin-left:97px ;
+          
+          padding-bottom:30px ;
+         
           font-family:Roboto,sans-serif 
 
         }
+      
         .designer-cool-ermakov{
             color: #757575;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 400;
-            text-decoration: none;
+            
           letter-spacing: 0.03em; 
-          margin-right:91px ;
+         
           
-          margin-bottom:30px ;
-          margin-left:92px ;
+          padding-bottom:30px ;
+          
           font-family:Roboto,sans-serif 
 
         }
@@ -520,9 +518,9 @@ li{
           font-family: Roboto,sans-serif;
           text-decoration: none; 
           letter-spacing: 0.03em;
-          margin-top: 0px;
-          text-align: center;
          
+          text-align: center;
+         margin-top: 94px;
           margin-bottom: 50px;
 
 }
@@ -576,12 +574,12 @@ ul .time-class{
    margin-top: 0px;
    padding-bottom: 94px;
 }
-.woman-and-man{
+.section-woman-and-man{
    
     background-color: #F5F4FA;
-    height: 648px;
+    
 
-    margin-top: 94px;
+    padding:  94px 0;
    
     
     
@@ -602,7 +600,14 @@ ul .time-class{
 .section-our-com{
     margin-top: 0px;
     text-align: center;
-   
+    color: rgba(33, 33, 33, 1);
+
+    font-size: 36px;
+          line-height:1.62 ;
+          font-weight: 700;
+          font-family: Roboto,sans-serif;
+          
+          letter-spacing: 0.03em;
 
 }
 
@@ -686,9 +691,10 @@ footer .logo-header{
     background-color: #FFFFFF;
     width: 270px;
     margin-top: 0px;
+   
     
 }
-.woman-and-man .color-life{
+.section-woman-and-man .color-life{
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
 
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
@@ -734,4 +740,7 @@ margin-right: 50px;
 }
 .button-marketing li :focus{
     color:dodgerblue;}
-    
+    .team-card :not(:last-child){
+        margin-right: 30px;
+    }
+   
