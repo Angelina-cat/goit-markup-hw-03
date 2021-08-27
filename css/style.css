@@ -11,7 +11,7 @@ img{
 }
 body{
     background-color: #FFFFFF;
-    max-width: 1600px;
+    
     font-family:Roboto,sans-serif;
     
     margin: 0 auto;
@@ -25,7 +25,7 @@ body{
     margin-bottom: 50px;
 }
 .container{
-    width: 1200px;
+   width: 1200px;
     margin:0 auto;
     padding: 0 15px 94px 15px;
 
@@ -33,7 +33,7 @@ body{
 .container-one{
     align-items: center;
     display: flex;
-
+width: 1200px;
 }
 ul{
     list-style: none;
@@ -43,21 +43,17 @@ ul{
 
     
   
-.container-team-card-super p{ 
+.section-woman-and-man p{ 
    
     font-size: 16px;
     line-height:1.17 ;
     font-weight: 400;
     text-decoration: none;
   letter-spacing: 0.03em;
-  width: 1200px;
+  
 
 }
-.container-team-card-super{
-    padding-left: 15px;
-height: 648px;
 
-}
  
 
 .team-card{
@@ -79,7 +75,7 @@ margin-right: 30px;
 }
 .plan-b li{
     margin-right: 30px;
-    margin-bottom: 94px;
+    
 }
     
     .plan-b li :not(:last-child){
@@ -91,7 +87,7 @@ margin-right: 30px;
           font-size: 16px;
           line-height:1.17 ;
           font-weight: 500;
-       
+       text-transform: uppercase;
         letter-spacing: 0.03em;
     margin-top: 0px;
     
@@ -335,6 +331,7 @@ margin-right: 50px;
      display: flex;
      margin-left: auto;
      
+     
     
  }
  .container-portfolio-two .item + .item{
@@ -349,7 +346,9 @@ nav{
 .e-mail{
     display:block;
 }
-
+.container-portfolio-two{
+    width: 1200px;
+}
 
 
 .team-card-two {
@@ -378,7 +377,7 @@ nav{
         .hot-button  {
             display: inline-block;
             
-           text-transform: uppercase;
+          
         
             background-color:#2196f3;
             color: #FFFFFF;
@@ -402,7 +401,7 @@ border-radius: 4px;
 
  
     .container-hero{
-        
+        width: 1200px;
         padding: 0 15px;
         margin: 0 auto;
     }
@@ -421,6 +420,7 @@ border-radius: 4px;
 }
       
        .decid-my-win{
+           text-transform: uppercase;
            color: #FFFFFF;
  
  font-size: 44px;
@@ -461,7 +461,7 @@ border-radius: 4px;
 
 
 .container{
-  
+  width: 1200px;
     margin: 0px auto ;
     padding: 0px 15px 0px 15px ;
 }
@@ -539,6 +539,9 @@ li{
           text-decoration: none; 
           letter-spacing: 0.03em;
           background-color:#F5F4FA;
+border: none;
+padding: 6px 22px;
+border-radius: 4px;
 
           
 }
@@ -568,7 +571,7 @@ ul .time-class{
         padding-right: 24px;
         padding-top: 4px;
         padding-bottom: 20px;
-        
+        margin: 0;
 
 }
 .section-team-card-one{
@@ -592,12 +595,7 @@ ul .time-class{
     
 }
 
-.container-footer{
-    box-sizing: border-box;
 
-    margin-top: 0px;
-    
-}
 
 
 
@@ -637,6 +635,7 @@ ul .time-class{
     display: flex;
     flex-direction: column;
     padding-left:15px;
+    width: 1200px;
     
 }
 footer .logo-header{
@@ -673,7 +672,7 @@ footer .logo-header{
 
 
 .container-portfolio{
-   
+   width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -685,9 +684,10 @@ footer .logo-header{
 }
 
 .cinderella-one {
-    border:  1px solid #EEEEEE ;
+    border:1px solid #EEEEEE ;
     
     border-bottom-style: outset;
+  
 }
 .cinderella-one:nth-child(3n) {
     margin-right: -15px;
@@ -722,12 +722,13 @@ footer a:focus{
 }
 
 .container-footer{
-    
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px; 
 }
 
 .container-portfolio-komanda{
+    width: 1200px;
     
     padding-left: 15px;
     padding-right: 15px;
@@ -737,16 +738,31 @@ footer a:focus{
 .container-portfolio-two li{
 margin-right: 50px;
 }
-.button-marketing li :hover{
-    color:dodgerblue;
-    
-}
-.button-marketing li :focus{
-    color:dodgerblue;}
+
+
     .team-card :not(:last-child){
         margin-right: 30px;
     }
     button:hover{
-        color: #188CE8
+        background-color: #188CE8
     }
-   
+    .button-two :hover{
+       color: #FFFFFF;
+        background-color:#188CE8 ;}
+        .button-five{
+            width: 73px;
+            height: 38px;
+            color: #212121;
+    font-size: 16px;
+          line-height:1.62 ;
+          font-weight: 500;
+          font-family: Roboto,sans-serif;
+          text-decoration: none; 
+          letter-spacing: 0.03em;
+          background-color:#F5F4FA;
+border: none;
+padding: 6px 22px;
+border-radius: 4px;
+        }
+        .button-marketing :hover{
+            color: #FFFFFF;}
