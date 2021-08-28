@@ -27,7 +27,7 @@ body{
 .container{
    width: 1200px;
     margin:0 auto;
-    padding: 0 15px 94px 15px;
+    padding: 0px 15px 94px 15px;
 
 }
 .container-one{
@@ -99,7 +99,7 @@ margin-right: 30px;
             font-weight: 500;
            text-align: center;
           letter-spacing: 0.03em; 
-          margin-right:59px ;
+          padding-left:40px ;
           margin-top:30px ;
           
           font-family:Roboto,sans-serif
@@ -127,7 +127,7 @@ margin-right: 30px;
           text-align: center;
           margin-top:30px ;
           margin-bottom:10px ;
-         
+         padding-left: 57px;
           font-family:Roboto,sans-serif
         }
         .team-card-ermakov{
@@ -152,7 +152,7 @@ margin-right: 30px;
             font-weight: 400;
             
           letter-spacing: 0.03em; 
-          padding:0 70px 30px 70px  ;
+          padding:10px 0 30px  70px  ;
          
          
           font-family:Roboto,sans-serif 
@@ -168,7 +168,7 @@ margin-right: 30px;
          
           padding-left: 62px;
           padding-bottom:30px ;
-         
+         padding-top: 10px;
           font-family:Roboto,sans-serif 
 
         }
@@ -182,7 +182,7 @@ margin-right: 30px;
           
           padding-left:97px ;
           padding-bottom:30px ;
-         
+         padding-top: 10px;
           font-family:Roboto,sans-serif 
 
         }
@@ -195,7 +195,7 @@ margin-right: 30px;
             
           letter-spacing: 0.03em; 
          padding-left: 92px;
-          
+          padding-top: 10px;
           padding-bottom:30px ;
           
           font-family:Roboto,sans-serif 
@@ -217,7 +217,7 @@ margin-right: 30px;
     display: flex;
     border-bottom: 1px solid #ECECEC ;
     height: 80px;
-    padding-bottom: 20px;
+    
             
             
 }
@@ -241,7 +241,7 @@ margin-right: 30px;
         line-height:1.17 ;
         font-weight: 700;
         font-family:Raleway,sans-serif ;
-        padding-bottom: 20px;
+        
         letter-spacing: 0.03em;
 }
 
@@ -346,9 +346,7 @@ nav{
 .e-mail{
     display:block;
 }
-.container-portfolio-two{
-    width: 1200px;
-}
+
 
 
 .team-card-two {
@@ -368,7 +366,7 @@ nav{
         font-family:Raleway,serif ;
         letter-spacing: 0.03em;
         text-decoration: none;}
-        footer{margin-top: 94px;
+        footer{
             background-color: #2F303A;
             
             
@@ -525,8 +523,8 @@ li{
           letter-spacing: 0.03em;
          
           text-align: center;
-         margin-top: 94px;
-          margin-bottom: 50px;
+         padding-top: 94px;
+          padding-bottom: 54px;
 
 }
 
@@ -555,25 +553,28 @@ ul .time-class{
           
           letter-spacing: 0.06em;
           padding-left: 24px;
-          padding-right: 24px;
+         
           padding-top: 20px;
           }
+ul.web-site{
+    
+        
+    padding-top: 4px;
+        
+        margin: 0;
+
+}
 .web-site{
     color: #757575;
     font-size: 16px;
+    padding-left:24px ;
           line-height:1.87;
           font-weight: 400;
           font-family: Roboto,sans-serif;
           text-decoration: none; 
           letter-spacing: 0.03em;
-        text-decoration: none;
-        padding-left:24px ;
-        padding-right: 24px;
-        padding-top: 4px;
-        padding-bottom: 20px;
-        margin: 0;
-
-}
+          padding-bottom: 20px;
+        text-decoration: none;}
 .section-team-card-one{
     padding: 94px 0;
     padding-bottom: 94px;
@@ -647,7 +648,7 @@ footer .logo-header{
 .contacts-two {
     padding-bottom: 60px;
     padding-left: 15px;
-    padding-top: 20px;
+   
 
 
 
@@ -766,3 +767,11 @@ border-radius: 4px;
         }
         .button-marketing :hover{
             color: #FFFFFF;}
+.cinderella-one:hover{
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+
+}
