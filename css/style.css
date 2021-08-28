@@ -668,7 +668,7 @@ footer .logo-header{
     width: 370px;
     margin-bottom: 30px;
     
-    
+    border: 1px rgba(238,238, 238, 1);
 }
 
 
@@ -687,7 +687,7 @@ footer .logo-header{
 .cinderella-one {
     border:1px solid rgba(238, 238,238, 1) ;
     
-    border-bottom-style: inherit;
+   
   
 }
 .cinderella-one:nth-child(3n) {
